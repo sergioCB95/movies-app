@@ -1,0 +1,45 @@
+.ma-movie-filtered-list__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.ma-movie-filtered-list__gender-filtering-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  margin-bottom: 10px;
+}
+
+.ma-movie-filtered-list__gender-filtering-button {
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.ma-movie-filtered-list__reset-button {
+  border-radius: 10px;
+}
+
+.ma-movie-filtered-list__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ma-movie-filtered-list__filtering-form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.ma-movie-filtered-list__search-input {
+  border-radius: 5px;
+  border: 1px solid;
+  height: 25px;
+  max-width: 350px;
+}
+
+.ma-movie-filtered-list__spinner-wrapper {
+  margin: 40px;
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+}
