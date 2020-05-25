@@ -1,0 +1,41 @@
+.ma-add-movie__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.ma-add-movie__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.ma-add-movie__form-fields {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.ma-add-movie__form-field {
+  font-weight: 600;
+  margin-right: 30px;
+}
+
+.ma-add-movie__name, .ma-add-movie__genres {
+  margin-bottom: 10px;
+}
+
+.ma-add-movie__input-field {
+  border-radius: 5px;
+  border: 1px solid;
+  height: 25px;
+  margin-left: 10px;
+}
+
+.ma-add-movie__genre-tags {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+}
+
+.ma-add-movie__button {
+  border-radius: 10px;
+}
