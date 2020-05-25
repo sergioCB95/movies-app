@@ -3,6 +3,20 @@ Frontend test for ThePowerMBA
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Project Info
+
+To execute the app, just basically install dependencies (`npm install`) and execute `npm start`
+
+All extra points has been implemented.
+
+API async calls has benn mocked using Promises with timeouts. 
+For that reason, some logic expected to be done in the server (movie filtering) is also done in the client.
+
+Error handling has not been implemented.
+Redux logic test has not been implemented either.
+
+UI design is a little simple because no framework has been used for this purpose. However, it is responsive.
+
 ## Available Scripts
 
 In the project directory, you can run:
